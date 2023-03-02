@@ -1,7 +1,7 @@
- # **Тестовое задание для Lesta Games**  :wave: 
+ # **Тестовое задание для Lesta Games** 
 <br>
  
-## **На должность Junior Frontend Developer** :computer:
+## **На должность Junior Frontend Developer** 
 <br>
 
 ### ***1. Описать новостные публикации других сайтов***<br>
