@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IGNATOV HOME</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/itc-slider.css">
+  <script src="js/itc-slider.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class=" flex header__contaiter">
+      <a href="#" class="header__logo">
+        <img class="header-logo2" src="img/logo2.png" alt="logo" />
+      </a>
+      <nav class="header__nav nav" title="Main menu">
+        <ul class="nav__list list-reset flex">
+          <li class="nav__item">
+            <a href="#sites" class="nav__link">Sites</a>
+          </li>
+          <li class="nav__item">
+            <a href="#patch-notes" class="nav__link">Patch Notes</a>
+          </li>
+          <li class="nav__item">
+            <a href="#About" class="nav__link">About game</a>
+          </li>
+          <li class="nav__item">
+            <a href="#My-game" class="nav__link">My game</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="media/korabli_install_ru_cquf8gfdups3.exe" class="header__btn btn btn-reset">Download</a>
+      <button class="burger btn-reset">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <section class="hero container">
+
+      <div class="slider">
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+
+      </div>
+
+      <div class="hero__content content">
+        <h1 class="content__title">Тестовое задание</h1>
+        <p class="content__descr">Ответ на&nbsp;задание сверстайте в&nbsp;виде одной или нескольких HTML&nbsp;страниц,
+          используя адаптивную вёрстку с&nbsp;поддержкой разрешений от&nbsp;400px до&nbsp;1920px.</p>
+        <a href="#sites" class="content__btn btn btn-reset">Подробнее</a>
+      </div>
+
+    </section>
+
+    <section id="sites" class="sites">
+      <h2 class="sites__title">Примеры новостных публикаций</h2>
+      <ul class="sites__list list-reset">
+        <li class="sites__item">
+          <aricals class="sites__item-box">
+            <a href="https://www.dota2.com/newsentry/3677788723138434910" target="_blank"
+              class="sites__item-link scale"> <img src="img/dota2.jpg" alt="" class="sites__item-img "></a>
+            <div class="sites__item-text">
+              <h3 class="sites__item-title">DOTA 2</h3>
+              <p class="sites__item-descr">Эта новость предназначена для того, чтобы оповестить поклонников Дота
+                о&nbsp;предстоящем мейджоре 4D&nbsp;Esports в&nbsp;Лиме. Она описывает список команд, даты турнира,
+                информацию о&nbsp;клубе поддержки и&nbsp;правила фэнтези-лиги.<br>
+                Оформление подходит для этой задачи, потому что оно представляет информацию в&nbsp;простой
+                и&nbsp;структурированной форме.
+              </p>
+            </div>
+          </aricals>
+        </li>
+        <li class="sites__item">
+          <aricals class="sites__item-box">
+            <a href="https://www.bladeandsoul.com/en-us/news/article/10340/race-to-the-summit-patch-notes"
+              target="_blank" class="sites__item-link scale"> <img src="img/bns.png" alt="" class="sites__item-img"></a>
+            <div class="sites__item-text">
+              <h3 class="sites__item-title">Blade and soul</h3>
+              <p class="sites__item-descr">Эта новость представляет собой патч-ноты для игры &laquo;Race to&nbsp;the
+                Summit&raquo;. Они предоставляют игрокам подробную информацию о&nbsp;последних обновлениях
+                и&nbsp;изменениях, которые привнесли в&nbsp;игру.<br>
+
+                Оформление этой новости отлично подходит для решения этой задачи. Новость разделена на&nbsp;разделы
+                с&nbsp;подробными описаниями каждого из&nbsp;них, а&nbsp;также имеет таблицу, содержащую информацию
+                об&nbsp;изменениях.</p>
+            </div>
+          </aricals>
+        </li>
+        <li class="sites__item">
+          <aricals class="sites__item-box">
+            <a href="https://ru.warface.com/news/1011386.html" target="_blank" class="sites__item-link scale"> <img
+                src="img/warface.jpg" alt="" class="sites__item-img"></a>
+            <div class="sites__item-text">
+              <h3 class="sites__item-title">Warface</h3>
+              <p class="sites__item-descr">Данная новость предназначена для информирования игроков о&nbsp;появлении
+                в&nbsp;игре нового оружия в&nbsp;магазине с&nbsp;постоянно обновляющимися предложениями.
+                Оформление новости подходит для этой задачи.
+                На&nbsp;странице присутствует простое и&nbsp;понятное объяснение основных преимуществ
+                и&nbsp;возможностей нового магазина, а&nbsp;также изображения, позволяющие визуально представить
+                функционал.</p>
+            </div>
+          </aricals>
+        </li>
+        <li class="sites__item">
+          <aricals class="sites__item-box">
+            <a href="https://worldoftanks.eu/ru/wot-1-20/" target="_blank" class="sites__item-link scale"> <img
+                src="img/wot.jpg" alt="" class="sites__item-img"></a>
+            <div class="sites__item-text">
+              <h3 class="sites__item-title">World of Tanks</h3>
+              <p class="sites__item-descr">НЭта новость предоставляет информацию о&nbsp;последних обновлениях для игры
+                World of&nbsp;Tanks, а&nbsp;также о&nbsp;новых возможностях и&nbsp;дополнениях. Оформление позволяет
+                пользователям легко найти и&nbsp;просмотреть доступные обновления, что делает процесс поиска
+                и&nbsp;просмотра информации максимально эффективным.
+              </p>
+            </div>
+          </aricals>
+        </li>
+        <li class="sites__item">
+          <aricals class="sites__item-box">
+            <a href="https://news.blizzard.com/ru-ru/diablo3/23897180/nachalsya-28-j-sezon-obryady-sanktuariya"
+              target="_blank" class="sites__item-link scale"> <img src="img/diablo3.jpg" alt=""
+                class="sites__item-img"></a>
+            <div class="sites__item-text">
+              <h3 class="sites__item-title">Diablo III</h3>
+              <p class="sites__item-descr">Эта новость решает задачу информирования игроков о&nbsp;начале 28-го сезона
+                Обрядов Санктуария в&nbsp;игре Diablo&nbsp;3.<br>
+
+                Это оформление лучшим образом подходит для этой задачи, поскольку оно демонстрирует высокий уровень
+                дизайна, предоставляет подробную информацию и&nbsp;привлекает внимание к&nbsp;новости.</p>
+
+            </div>
+          </aricals>
+        </li>
+        <li class="sites__item">
+          <aricals class="sites__item-box">
+            <a href="https://www.lineage2.com/en-us/news/assass-sp" target="_blank" class="sites__item-link scale"> <img
+                src="img/la2.jpg" alt="" class="sites__item-img"></a>
+            <div class="sites__item-text">
+              <h3 class="sites__item-title">Lineage 2</h3>
+              <p class="sites__item-descr">Это новость предназначена для продвижения нового дополнения для игры
+                Lineage&nbsp;2. В&nbsp;новости представляются новые опции, доступные для игроков в&nbsp;этом дополнении,
+                а&nbsp;также подробное описание того, как улучшается игровой процесс. Оформление новости отражает
+                информацию понятным для потенциальных пользователей образом, предлагая им&nbsp;подробное описание
+                доступных опций обновления.</p>
+
+            </div>
+          </aricals>
+        </li>
+      </ul>
+
+
+    </section>
+
+    <!-- <section class="battle" id="battle">
+      <div id="p1"></div>
+      <div id="p2"></div>
+    </section> -->
+
+
+    <section id="patch-notes" class="patch">
+      <h2 class="patch__title">Самая главная статья каждого месяца&nbsp;&mdash; патч-ноут, &laquo;обновление&raquo;.
+      </h2>
+      <ul class="patch__list list-reset">
+        <li class="patch__item">
+          <article class="patch__item-box">
+            <a href="https://korabli.su/ru/news/game-updates/update-01111-new-year/" class="patch__item-link">
+              <img src="img/patch-notes-11.webp" alt="patch-notes1.img" class="patch__img">
+            </a>
+            <div class="patch__item-text">
+              <h3 class="patch__item-title">Обновление&nbsp;0.11.11: Новый год</h3>
+              <p class="patch__descr">В&nbsp;этом обновлении появились новогодние события, что делает процесс игры более
+                интересным. Теперь игроки могут получить дополнительные бонусы и&nbsp;призы в&nbsp;честь Нового года.
+                Также были добавлены новые морские битвы, что делает игру более динамичной и&nbsp;захватывающей.
+                В&nbsp;игре появилось множество новых предметов и&nbsp;предметов экипировки, которые помогут игрокам
+                продвигаться в&nbsp;игре.
+
+                Однако надо отметить, что разработчики должны продолжать улучшать игру. Например, можно добавить больше
+                оружия и&nbsp;боеприпасов, так чтобы игроки могли выбирать из&nbsp;большего диапазона оружия. Также
+                можно добавить больше морских битв. Еще один небольшой нюанс&nbsp;&mdash; необходимо обновить интерфейс
+                игры, поскольку иногда он&nbsp;может быть немного запутанным.
+
+                В&nbsp;целом, последнее обновление принесло новые возможности игрокам и&nbsp;делает игру еще более
+                захватывающей. Однако в&nbsp;будущем разработчики должны продолжать делать игру еще лучше, чтобы игроки
+                могли получать больше удовольствия от&nbsp;игры.
+
+
+              </p>
+            </div>
+          </article>
+        </li>
+
+        <li class="patch__item">
+          <article class="patch__item-box">
+            <a href="https://korabli.su/ru/news/game-updates/update-0910-american-battleships/"
+              class="patch__item-link">
+              <img src="img/patch-notes-9.webp" alt="patch-notes1.img" class="patch__img"></a>
+            <div class="patch__item-text">
+              <h3 class="patch__item-title">Обновление&nbsp;0.9.10: Американские линкоры. Часть&nbsp;2</h3>
+              <p class="patch__descr">В&nbsp;обновлении &laquo;Американские линкоры&raquo; были внесены многочисленные
+                изменения и&nbsp;улучшения. Наиболее заметными из&nbsp;них являются добавление новых кораблей, таких как
+                эсминец &laquo;Сентрелла&raquo; и&nbsp;броненосец &laquo;Иллинойс&raquo;, а&nbsp;также улучшенный дизайн
+                и&nbsp;интерфейс. Также были добавлены новые сценарии битв, новые игровые режимы и&nbsp;правила игры.
+                Обновление позволило повысить игровую графику, а&nbsp;также добавило новые варианты оружия.
+                В&nbsp;целом, последнее обновление принесло много позитивных изменений и&nbsp;улучшений для игроков.
+                Если вы&nbsp;играли в&nbsp;эту игру до&nbsp;этого, то&nbsp;наверняка понравится новое обновление, потому
+                что оно принесло много нового и&nbsp;интересного. Новые корабли, оружие и&nbsp;правила игры сделают игру
+                более увлекательной и&nbsp;интересной.
+
+              </p>
+
+            </div>
+          </article>
+        </li>
+      </ul>
+      <h3 class="patch__compare">Вывод:</h3>
+
+      <p class="patch__compare-descr">Сравнивая эти статьи, можно сказать, что игровые разработчики сделали
+        хорошую работу
+        по&nbsp;улучшению игрового опыта. В&nbsp;обновлении за&nbsp;2020-й год были добавлены американские
+        линкоры, а&nbsp;в&nbsp;2022-м году были добавлены различные игровые возможности, такие как улучшенная
+        мультиплеерная игра, новые модели кораблей, поддержка новых языков и&nbsp;другие улучшения. Эти
+        обновления наверняка принесут много положительных эмоций для игроков.
+
+        Я&nbsp;бы лично оставил изменения, которые были внесены в&nbsp;игру. Каждые изменения
+        и&nbsp;нововведения наполняют игру новыми функциями и&nbsp;возможностями, что усиливыет интерес игрока
+        к&nbsp;игре. Однако, можно было&nbsp;бы улучшить некоторые аспекты для дальнейшего развития игры.
+        Например, добавить больше предметов, улучшить графику, добавить больше миссий и&nbsp;исследований,
+        и&nbsp;дать игрокам больше возможностей кастомизировать их&nbsp;корабли. В&nbsp;целом, я&nbsp;думаю, что
+        обновления былы очень полезными и&nbsp;позволили игрокам получить больше удовольствия от&nbsp;игры.
+
+        В&nbsp;общем, разработчики
+        делают хорошую работу по&nbsp;улучшению игрового опыта и&nbsp;приносят игрокам много радости
+        и&nbsp;восхищения.</p>
+
+
+
+    </section>
+
+    <section id="About" class="about">
+      <h2 class="about__title">Анализ страницы «Об игре»</h2>
+      <a target="_blank" href="https://korabli.su/ru/content/game/" class="about__link">
+        <img src="img/about-img.webp" alt="about-img" class="about__img"></a>
+
+      <div class="about__text">
+
+        <ol class="about__list">
+
+          <li class="about__item">Необходимо обновить дизайн. На&nbsp;текущий момент страница выглядит непривлекательно
+            и&nbsp;просто. С&nbsp;помощью правильно построенной структуры и&nbsp;добавления новых визуальных элементов
+            страница станет более яркой и&nbsp;привлекательной.</li>
+          <li class="about__item">Адаптивная верстка. На&nbsp;текущий момент страница
+            не&nbsp;отображается правильно на&nbsp;мобильных устройствах. Применение адаптивной верстки позволит сделать
+            сайт более доступным для пользователей мобильных устройств и&nbsp;повысит его рейтинг в&nbsp;поисковых
+            системах.</li>
+
+          <li class="about__item">Нет ссылок на&nbsp;социальные сети. Это позволит пользователям легко делиться
+            информацией о&nbsp;игре и&nbsp;привлекать новых игроков.</li>
+          <li class="about__item">Нет навигации по&nbsp;странице. Пользователи не&nbsp;могут легко перемещаться между
+            секциями и&nbsp;находить интересующую информацию. Добавить якорей и&nbsp;панели навигации вверху страницы.
+            Это улучшит юзабилити сайта и&nbsp;доступность информации для пользователей.</li>
+
+          <li class="about__item">Слишком много блоков на&nbsp;странице. Загрузка страницы занимает длительное
+            время.Необходима оптимизация кода, избавление от&nbsp;лишних скриптов и&nbsp;стилей, использовать
+            современные форматы изображений. Это позволит ускорить загрузку страницы,
+            улучшить юзабилити и&nbsp;повысить позиций в&nbsp;поисковых системах.</li>
+
+        </ol>
+      </div>
+
+
+
+    </section>
+
+    <section id="My-game" class="my-game">
+
+      <hat class="hat">
+        <div></div>
+        <div class="hat__description">
+          Игра "Крестики-нолики"
+        </div>
+
+      </hat>
+      <div class="help-block" style="display: none">
+        <p class="help-block__paragraph">
+          1. Перед началом партии выберите, кто будет ходить первым.
+        </p>
+        <p class="help-block__paragraph">
+          2. Для обнуления счета перезагрузите страницу.
+        </p>
+      </div>
+
+      <div class="game-score">
+        <div class="game-score__content">
+          <h2 class="game-score__title">Счет</h2>
+          <p class="game-score__player">Компьютер:<span id="computer-count">0</span></span>
+          <p class="game-score__player">Вы:<span id="player-count">0</span></span>
+        </div>
+      </div>
+
+      <div class="game">
+        <table id="game__board">
+
+        </table>
+      </div>
+
+      <div class="choose-player">
+        <h1 class="choose-player__title">Выберите, кто будет ходить первым</h1>
+
+        <div id="players" class="choose-player__content">
+          <div class="choose-player__content__description">
+            <i class="fa fa-user-circle fa-5x fa-inverse" aria-hidden="true"></i>
+            <p class="choose-player__content__description__text">
+              Вы
+            </p>
+
+          </div>
+          <div class="choose-player__content__description">
+            <i class="fa fa-desktop fa-5x fa-inverse" aria-hidden="true"></i>
+            <p class="choose-player__content__description__text">
+              Компьютер
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="show-history">
+        <button class="show-history__buttons">История партий</button>
+      </div>
+
+      <div id="history">
+      </div>
+
+
+
+
+
+
+    </section>
+
+    
+
+  </main>
+
+  <footer class="footer">
+    <div class="flex footer__container">
+      <div class="footer__left flex">
+        <div class="liner"></div>
+        <small class="footer__copy">Copyright &copy;2023. All Right Reserved</small>
+      </div>
+
+      <div class="footer__right flex">
+        <nav class="footer__nav nav" title="Second main">
+          <ul class="list-reset nav__list flex">
+            <li class="nav__item">
+              <a href="#sites" class="nav__link">Sites</a>
+            </li>
+            <li class="nav__item">
+              <a href="#patch-notes" class="nav__link">Patch Notes</a>
+            </li>
+            <li class="nav__item">
+              <a href="#About" class="nav__link">About game</a>
+            </li>
+            <li class="footer-item">
+              <a href="#My-game" class="nav__link">My game</a>
+            </li>
+          </ul>
+        </nav>
+
+
+
+      </div>
+    </div>
+  </footer>
+  <script src="js/index.js" type="module"></script>
+  <script src="js/scroll.js"></script>
+  <!-- <script src="js/sea-battle.js"></script> -->
+</body>
+
+</html>
